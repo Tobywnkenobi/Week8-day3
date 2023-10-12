@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+  }
+  
+  .container{
+    display: flex;
+  }
+  
+  @media screen and (max-width: 850){
+    .container{
+      flex-direction: column;
+    }
+  }
+  
+  main{
+    width: 90%;
+    display:flex;
+    column-gap:10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom:15px;
+  }
+  
+  .workout-div{
+    min-width: 130px;
+  }

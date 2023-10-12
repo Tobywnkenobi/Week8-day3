@@ -4,10 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="./bundle.js" defer></script>
+  <link rel="stylesheet" href="./static/main.css">
+  <script src="Day4/public/bundle.js" defer></script>
 </head>
 <body>
   <h1>Fitness Tracker</h1>
+  <div class="container">
   <main></main>
+
+  <form action="" id="add-form">
+    <label for="add-workout-name">Name:</label>
+    <input type="text" id="add-workout-name" name = 'name' required><br>
+    <label for="add-workout-reps">Reps</label>
+    <input type="text" id ='add-workout-name' name = 'reps' required>
+    <input type="submit" value="Submit">
+
+    </form>
+  </form>
+  </div>
 </body>
 </html>
